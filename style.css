@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoIcon {
+    height: 48px;
+    width: 48px;
+    border: 1px solid;
+    background-image: url('https://www.fervalle.com/wp-content/uploads/2022/07/transparent-orange-apple5eacfeae85ac29.7815306015883956945475.png');
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.navButton {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navContainer {
+    display: flex;
+}
+
+.bannerImage {
+    border: 1px solid;
+    height: 400px;
+    background-image: url('https://media.istockphoto.com/id/918560764/photo/orange-tree.jpg?s=612x612&w=0&k=20&c=poHqeurFG8ld5XoHKolugOVVBV4L_fY6OuJ_twaYrw8=');
+    background-position: center;
+    background-size: cover;
+}
+
+.profileItem {
+    height: 100px;
+    text-align: -webkit-center;
+}
+
+.profileImage {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://picsum.photos//250');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footNote {
+    text-align: left;
+}
